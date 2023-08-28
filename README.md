@@ -61,3 +61,14 @@ a. Once virtual button is covered using hand/tapped Start Scene is triggered </p
 bounce/collision
 4. Projection map game onto a surface
 
+## Notes: 
+1. To toggle background sprite/instruction overlay on and off, press A & S keys.
+2. IMPT: Handwritten PLAY may not be detected sometimes and it might be due to the TextRecognition script being only used for only Optical character recognition (OCR), which examines scanned images of printed text and transforms those images into digital texts. Though the most sophisticated OCR models can identify almost every font type, they only work with printed text and dismiss handwritten data. Intelligent Character Recognition (ICR) and Intelligent Word Recognition (IWR) would be better for handwritten text (which atm is not available in the game unfortunately 🙁 ).
+
+ Hence, to start the game you can try placing a typewritten PLAY in the camera view, or alternatively, you can press the space key to start the game scene.
+
+3. Start Scene = where the Game play is done
+4. End Scene = Winning scene
+5. Other scenes are not in use atm
+6. Some scripts are not in use 
+
